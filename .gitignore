@@ -1,0 +1,24 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários
+*.tmp
+*.temp
+*.bak
+~*
+
+# Vídeos renderizados e arquivos pesados locais
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Áudio bruto
+*.wav
+
+# Ferramentas
+.env
+.env.*
+!.env.example
