@@ -5,7 +5,7 @@ Status: storyboard de pré-produção; não é vídeo renderizado nem sincroniza
 ## Referência editorial e sonora
 Base Git: audio/ep00-selecao, commit 374bbb061eecef923ac244e09e7a67f914cfd6c0.
 Fontes lidas: roteiros/EP00_a_topografia_esta_mudando.md; roteiros/EP00_locucao_42s.md; episodios/EP00/audio/MONTAGEM_VOZ_V1.md e MONTAGEM_VOZ_V3.md; planejamento/EP00_plano_producao_fontes.md.
-A voz humana EP00_MASTER_VOZ_v3.wav é a referência principal. Duração DOCUMENTADA ~40,86 s; 48 kHz mono, WAV 24-bit. O arquivo binário não foi acessado nesta sessão. Não afirmar duração medida, transcrição integral ou sincronismo verificado.
+A voz humana EP00_MASTER_VOZ_v3.wav é a referência principal. Duração DOCUMENTADA ~40,86 s; 48 kHz mono, WAV 24-bit. Atualização após recebimento: WAV acessado e medido em 40,862708333 s; 1.961.410 amostras, 48 kHz, 24-bit, mono. Ver ../audio/RECEBIMENTO_MASTER_V3.md. Não afirmar duração medida, transcrição integral ou sincronismo verificado.
 Os roteiros escritos antecedem o encerramento gravado. Manter o encerramento documentado: “O levantamento… já não termina mais no desenho. Topografia em campo. Tecnologia na medida certa. Vem comigo. Vamos conferir.”
 Não inserir a fala antiga “Aqui vamos mostrar...” ou nova voz. Legendas só após ouvir/transcrever o WAV.
 A V1 documenta aproximadamente 15,87 s da primeira fonte e 16,19 s da segunda; usamos esses comprimentos apenas para orientar os blocos de 15,90 e 32,10 s. Emendas e pausas podem deslocá-los.
@@ -131,6 +131,6 @@ Saída proposta: MP4 H.264, 1080×1920; manter um pacote com WAV original, mídi
 Não incluir binários pesados no Git por padrão; registrar local/URL e hash quando os arquivos existirem.
 
 ## Pendências reais para montagem final
-WAV V3 ou ZIP V3 não está no repositório nem no espelho local desta sessão. Solicitar o arquivo ao usuário para ouvir, confirmar as palavras e cravar os cortes. O link sandbox da conversa antiga não equivale a um arquivo acessível aqui.
+WAV e ZIP V3 recebidos pelo usuário e conferidos. Cópia local de trabalho preservada; binário não enviado ao GitHub público. Ainda falta conferência auditiva/transcrição alinhada para confirmar as palavras e cravar os cortes; a análise de pausas não identifica palavras.
 Mídias oficiais ainda não foram selecionadas/baixadas. Referências visuais de equipamentos ainda não foram vinculadas.
 Esta entrega conclui o planejamento técnico e a organização de cenas; a edição final depende desses materiais.
