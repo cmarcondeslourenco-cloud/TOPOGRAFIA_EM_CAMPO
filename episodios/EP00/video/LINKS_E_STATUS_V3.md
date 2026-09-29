@@ -11,7 +11,7 @@ Data: 28/09/2026.
 - Studio Ghibli Anime Creator: orientação consultada; estética do EP00 continua realista/moderna.
 
 ## Para continuar
-Importar o arquivo EP00_MASTER_VOZ_v3.wav ou pacote ZIP V3. A documentação está acessível, mas o binário não foi encontrado no repositório nem no espelho.
+WAV e ZIP V3 recebidos e conferidos: duração medida 40,862708333 s. Cópia local preservada. Tentativa de importação direta no Canva falhou: Failed To Convert File Format. Ver ../audio/RECEBIMENTO_MASTER_V3.md.
 Ajustar os tempos provisórios às palavras e pausas reais, mantendo a cauda de “vamos conferir”.
 Completar as páginas do Canva a partir das oito cenas do documento principal quando houver edição disponível.
 Selecionar referências e materiais para gerar somente complementos necessários. Não substituir a locução humana por TTS.
