@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:02,500
+Como medir aquele ponto sem levar a haste até ele
+
+2
+00:00:02,500 --> 00:00:05,000
+e sem colocar o operador em risco?
+
+3
+00:00:05,000 --> 00:00:08,500
+Em alguns receptores RTK, o laser permite visar
+
+4
+00:00:08,500 --> 00:00:13,000
+um alvo distante ou de acesso difícil.
+
+5
+00:00:13,000 --> 00:00:16,000
+O GNSS posiciona o equipamento.
+
+6
+00:00:16,000 --> 00:00:19,000
+A IMU registra sua orientação.
+
+7
+00:00:19,000 --> 00:00:23,000
+O sistema combina essa direção com a distância medida para calcular o ponto.
+
+8
+00:00:23,000 --> 00:00:27,000
+Na prática, o operador mira e confere a leitura.
+
+9
+00:00:27,000 --> 00:00:31,000
+Depois registra a coordenada sem apoiar a haste no alvo.
+
+10
+00:00:31,000 --> 00:00:34,000
+Mas alcance não é sinônimo de precisão.
+
+11
+00:00:34,000 --> 00:00:37,000
+Distância, visada e condições de campo também importam.
+
+12
+00:00:37,000 --> 00:00:42,000
+RTK com laser: mais uma ferramenta para escolher o método certo em campo.
