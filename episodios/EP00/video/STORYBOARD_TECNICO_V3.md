@@ -6,9 +6,9 @@ Status: storyboard de pré-produção; não é vídeo renderizado nem sincroniza
 Base Git: audio/ep00-selecao, commit 374bbb061eecef923ac244e09e7a67f914cfd6c0.
 Fontes lidas: roteiros/EP00_a_topografia_esta_mudando.md; roteiros/EP00_locucao_42s.md; episodios/EP00/audio/MONTAGEM_VOZ_V1.md e MONTAGEM_VOZ_V3.md; planejamento/EP00_plano_producao_fontes.md.
 A voz humana EP00_MASTER_VOZ_v3.wav é a referência principal. Duração DOCUMENTADA ~40,86 s; 48 kHz mono, WAV 24-bit. Atualização após recebimento: WAV acessado e medido em 40,862708333 s; 1.961.410 amostras, 48 kHz, 24-bit, mono. Ver ../audio/RECEBIMENTO_MASTER_V3.md. Não afirmar duração medida, transcrição integral ou sincronismo verificado.
-Os roteiros escritos antecedem o encerramento gravado. Manter o encerramento documentado: “O levantamento… já não termina mais no desenho. Topografia em campo. Tecnologia na medida certa. Vem comigo. Vamos conferir.”
-Não inserir a fala antiga “Aqui vamos mostrar...” ou nova voz. Legendas só após ouvir/transcrever o WAV.
-A V1 documenta aproximadamente 15,87 s da primeira fonte e 16,19 s da segunda; usamos esses comprimentos apenas para orientar os blocos de 15,90 e 32,10 s. Emendas e pausas podem deslocá-los.
+A locução documentada em roteiros/EP00_locucao_42s.md (commit 8f5b091cbde0dd434decb3ed772ed60ae6c988af) distribui o texto em sete blocos: 0–5, 5–15, 15–19, 19–27, 27–33, 33–36 e 36–42 s. Esses limites são evidência de roteiro, não confirmação de que o WAV V3 contém essa tomada ou de que as palavras começam exatamente nesses instantes.
+Há divergência editorial entre o roteiro e a descrição anterior da gravação V3: o roteiro termina “Aqui vamos mostrar o que está entrando em campo. Começando pelo RTK com laser.”; o registro anterior atribui à V3 “Topografia em campo. Tecnologia na medida certa. Vem comigo. Vamos conferir.” Não escolher uma versão para o áudio final sem ouvir o master. O storyboard abaixo adota o roteiro cronometrado como referência textual provisória e marca a checagem auditiva como pendente.
+A V1 documenta comprimentos aproximados de fontes anteriores; eles não fundamentam os tempos das cenas atuais e foram retirados como base de sincronismo.
 
 ## Formato e identidade
 1080 × 1920, 9:16. Proposta: 30 fps, conferir cadência dos materiais antes da montagem.
@@ -19,21 +19,22 @@ Textos, setas, rótulos e identidade em camadas editáveis no Canva. Imagens ger
 Prioridade de material: filmagem própria disponível → material oficial autorizado → ilustração gerada identificada como tal.
 Não apresentar uma ilustração de IA como demonstração comprovada de equipamento.
 
-## Storyboard técnico — tempos PROVISÓRIOS
-| ID | Janela estimada | Duração | Referência de voz/conteúdo | Plano e tratamento | Texto |
-|---|---|---:|---|---|---|
-| S01 | 00,00–04,50 | 4,50 s | Gancho do roteiro: estação total, GPS, haste; “olha isso” a conferir no WAV | Campo → close rover → estação total; corte seco para terreno digital no gatilho da fala | A TOPOGRAFIA ESTÁ MUDANDO |
-| S02 | 04,50–12,00 | 7,50 s | Bloco GNSS/IMU/laser; texto exato a conferir | Operador afastado da borda; plano médio + detalhe do alvo. Linha vetorial explicativa adicionada em pós, sem simular feixe visível real | GNSS + IMU + LASER |
-| S03 | 12,00–15,90 | 3,90 s | Câmeras e pontos difíceis; texto exato a conferir | Sobre ombro no controlador; inserir associação foto/ponto com interface real autorizada ou esquema claramente identificado | IMAGEM + POSICIONAMENTO |
-| S04 | 15,90–24,00 | 8,10 s | Track 10: LiDAR/SLAM; texto exato a conferir | Operador caminha; corte correspondente para nuvem de pontos da mesma geometria, real ou rotulada como ilustração | LiDAR • SLAM • 3D |
-| S05 | 24,00–32,10 | 8,10 s | Track 10: terraplanagem, RTK e modelo digital | Plano lateral da motoniveladora; corte para superfície de projeto. CORTE/ATERRO sem valores fictícios | RTK + MODELO DIGITAL |
-| S06 | 32,10–35,20 | 3,10 s | “O levantamento… já não termina mais no desenho.” | Três estados gráficos da mesma área: pontos, TIN, obra. Transições internas discretas | CAMPO → MODELO → OBRA |
-| S07 | 35,20–38,20 | 3,00 s | “Topografia em campo. Tecnologia na medida certa.” | Assinatura sobre campo desfocado, composição estável | TOPOGRAFIA EM CAMPO / Tecnologia na medida certa |
-| S08 | 38,20–40,86 | 2,66 s | “Vem comigo. Vamos conferir.” | Sustentar cartela até a cauda acústica final; não encurtar a última palavra | VAMOS CONFERIR |
+## Storyboard técnico — blocos do roteiro e sincronismo pendente
+| ID | Janela do roteiro | Conteúdo documentado | Plano e tratamento | Texto visual proposto |
+|---|---|---|---|---|
+| S01 | 00–05 s | Estação total, GPS, haste; “olha isso” | Campo → close do rover → estação total; corte para terreno digital a sincronizar pela fala | A TOPOGRAFIA ESTÁ MUDANDO |
+| S02 | 05–15 s | Receptores: GNSS, IMU e laser; medição onde a haste não chega ou há risco | Operador em área segura; plano médio + detalhe do alvo. Linha vetorial explicativa em pós, sem simular feixe visível real | GNSS + IMU + LASER |
+| S03 | 15–19 s | Câmeras e medição de pontos difíceis | Sobre ombro no controlador; associação foto/ponto com interface autorizada ou esquema identificado | IMAGEM + POSICIONAMENTO |
+| S04 | 19–27 s | LiDAR, SLAM e captura de pontos em movimento | Operador caminha; corte para nuvem de pontos da mesma geometria, real ou identificada como ilustração | LiDAR • SLAM • 3D |
+| S05 | 27–33 s | Terraplanagem, RTK e modelos digitais do projeto | Plano lateral da motoniveladora; corte para superfície de projeto. CORTE/ATERRO sem valores fictícios | RTK + MODELO DIGITAL |
+| S06 | 33–36 s | “O levantamento já não termina no desenho.” | Três estados gráficos da mesma área: pontos, TIN, obra; transições discretas | CAMPO → MODELO → OBRA |
+| S07 | 36–42 s | “Aqui vamos mostrar o que está entrando em campo.” | Imagem de campo/equipamento; manter a tomada ajustável à locução | ENTRANDO EM CAMPO |
+| S08 | 36–42 s, sobreposta a S07; limite interno não documentado | “Começando pelo RTK com laser.” A separação temporal em relação à frase anterior precisa ser ouvida | Destaque visual do equipamento apenas se sua identidade e material forem confirmados; sem inventar modelo | RTK COM LASER |
 
-Soma das janelas: 40,86 s. Isso verifica apenas a soma do planejamento.
-A 30 fps, 40,86 s não corresponde a um número inteiro de quadros. Se o WAV confirmar esse fim, usar pelo menos 1226 quadros (~40,867 s), sem cortar o áudio para arredondar.
-Ajustar cortes visuais às palavras e pausas reais; a voz não é acelerada nem remontada para caber nestas janelas.
+As seis primeiras janelas seguem os limites escritos do roteiro. S07 e S08 compartilham o bloco 36–42 s porque o roteiro não informa a divisão temporal entre as duas frases; essa sobreposição é apenas estrutural para preservar as oito cenas e não fixa um corte.
+O texto do roteiro ainda não comprova a fala efetivamente gravada. Os tempos são marcos de roteiro, não sincronismo validado.
+A duração do WAV V3 documentada é 40,862708333 s. O roteiro prevê até 42 s; a diferença não prova erro, pois “40–42 segundos” é duração-alvo, mas exige conferir qual locução está no arquivo. Se o WAV terminar em ~40,86 s, não estender nem cortar para forçar 42 s.
+Ajustar cortes visuais às palavras e pausas reais; não acelerar nem remontar a voz para caber nas janelas.
 
 ## Movimento, transições e som
 | ID | Movimento proposto | Saída | Material/fonte desejada | SFX opcionais |
@@ -118,7 +119,7 @@ Criar projeto de vídeo vertical para montagem final quando o WAV estiver acess�
 - V1: campo/material oficial/ilustração; V2: gráficos explicativos.
 - V3: títulos; V4: legendas exatas da voz; V5: fonte ou “Ilustração” quando aplicável.
 As legendas ficam em até duas linhas e seguem as palavras reais. Títulos não repetem toda a legenda.
-Primeiro ajuste: marcar no WAV inícios de GNSS, imagem, LiDAR, terraplanagem, “O levantamento”, assinatura e “Vem comigo”.
+Primeiro ajuste: conferir auditivamente se o WAV corresponde ao roteiro cronometrado; então marcar inícios de GNSS, câmeras, LiDAR, terraplanagem, “O levantamento” e as duas frases finais. Não presumir que as frases do roteiro estejam no master.
 Mover os cortes para esses marcadores. Nunca substituir a voz humana por TTS.
 Saída proposta: MP4 H.264, 1080×1920; manter um pacote com WAV original, mídias e arquivos de referência.
 
@@ -131,6 +132,7 @@ Saída proposta: MP4 H.264, 1080×1920; manter um pacote com WAV original, mídi
 Não incluir binários pesados no Git por padrão; registrar local/URL e hash quando os arquivos existirem.
 
 ## Pendências reais para montagem final
-WAV e ZIP V3 recebidos pelo usuário e conferidos. Cópia local de trabalho preservada; binário não enviado ao GitHub público. Ainda falta conferência auditiva/transcrição alinhada para confirmar as palavras e cravar os cortes; a análise de pausas não identifica palavras.
+WAV e ZIP V3 recebidos e conferidos; duração técnica registrada em 40,862708333 s. O roteiro cronometrado documenta outra formulação para os blocos finais que a formulação atribuída anteriormente ao master V3. Ainda falta ouvir o WAV para: confirmar qual texto foi gravado; confirmar se os blocos anteriores também correspondem à gravação; localizar as palavras e pausas reais; decidir se a divergência vem de uma versão de roteiro ou de uma locução diferente; e sincronizar/fechar cortes e legendas. A análise de pausas por energia não identifica palavras.
 Mídias oficiais ainda não foram selecionadas/baixadas. Referências visuais de equipamentos ainda não foram vinculadas.
-Esta entrega conclui o planejamento técnico e a organização de cenas; a edição final depende desses materiais.
+Mídias oficiais ainda não foram selecionadas/baixadas. Referências visuais de equipamentos ainda não foram vinculadas.
+Esta atualização corrige apenas as referências e os marcos sustentados pelo roteiro; não valida a sincronização do WAV.
