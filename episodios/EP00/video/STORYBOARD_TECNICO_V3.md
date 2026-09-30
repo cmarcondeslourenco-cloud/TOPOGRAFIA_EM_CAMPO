@@ -46,7 +46,7 @@ Ajustar cortes visuais às palavras e pausas reais; não acelerar nem remontar a
 | S05 | tomada lateral lenta, máquina fisicamente coerente | correspondência terreno/modelo | controle de máquina real autorizado; candidatos: Leica iCON iGG3 / Topcon 3D-MC | máquina muito baixa sob voz |
 | S06 | animação gráfica determinística, três estados | corte limpo para assinatura | gráfico próprio | transição discreta opcional |
 | S07 | fundo quase estático | manter mesma composição | identidade tipográfica própria | nenhum destaque sonoro sobre marca |
-| S08 | sustentar imagem | último quadro cobre cauda vocal | cartela própria | sem fade que corte “conferir” |
+| S08 | sustentar imagem | último quadro cobre a cauda vocal, após confirmar o final gravado | cartela própria, texto final a confirmar contra o WAV | sem fade que corte a fala |
 
 Os fabricantes acima são candidatos do plano existente, não materiais baixados ou licenças confirmadas. Confirmar produto/recurso e autorização antes de usar; registrar URL, titular, permissão e trecho. Para imagem/medição, revisar especialmente a combinação produto/software citada no plano antes de atribuir a um modelo.
 Música é opcional; começar pela montagem com voz seca. Se adicionada, reduzir sob a voz e preservar inteligibilidade. Não normalizar ou equalizar novamente o master por padrão. Descartar qualquer fala ou música nativa dos clipes gerados na montagem final.
@@ -99,7 +99,7 @@ Movimento: Very subtle background drift; title added in Canva. No speaking, musi
 
 ### S08
 Imagem:
-Vertical 9:16 photorealistic close detail of a survey receiver against softly blurred terrain, modern restrained documentary look, soft daylight, stable equipment geometry, no text, no logos, no dramatic light effects. Reserve center for postproduction invitation.
+Vertical 9:16 photorealistic close detail of a survey receiver against softly blurred terrain, modern restrained documentary look, soft daylight, stable equipment geometry, no text, no logos, no dramatic light effects. Reserve center for postproduction title; final wording and equipment reference must be confirmed against the recorded audio and approved visual source.
 
 Movimento: Hold a stable equipment detail and leave the ending still. No speaking, music or text.
 
@@ -133,6 +133,5 @@ Não incluir binários pesados no Git por padrão; registrar local/URL e hash qu
 
 ## Pendências reais para montagem final
 WAV e ZIP V3 recebidos e conferidos; duração técnica registrada em 40,862708333 s. O roteiro cronometrado documenta outra formulação para os blocos finais que a formulação atribuída anteriormente ao master V3. Ainda falta ouvir o WAV para: confirmar qual texto foi gravado; confirmar se os blocos anteriores também correspondem à gravação; localizar as palavras e pausas reais; decidir se a divergência vem de uma versão de roteiro ou de uma locução diferente; e sincronizar/fechar cortes e legendas. A análise de pausas por energia não identifica palavras.
-Mídias oficiais ainda não foram selecionadas/baixadas. Referências visuais de equipamentos ainda não foram vinculadas.
 Mídias oficiais ainda não foram selecionadas/baixadas. Referências visuais de equipamentos ainda não foram vinculadas.
 Esta atualização corrige apenas as referências e os marcos sustentados pelo roteiro; não valida a sincronização do WAV.
