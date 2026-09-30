@@ -4,7 +4,7 @@
 **Formato:** vertical 9:16  
 **Duração-alvo:** 40–42 s  
 **Abordagem:** demonstração técnica, sem tom de anúncio  
-**Equipamento de referência:** CHCNAV i85, conforme as referências enviadas  
+**Equipamento em cena:** receptor GNSS RTK genérico com laser, sem identificação comercial  
 **Status:** roteiro de pré-produção; validar a operação real e sincronizar com a locução gravada antes da edição final
 
 ### Ideia central
@@ -49,6 +49,9 @@ Mostrar como um receptor que combina posicionamento GNSS/RTK, IMU e medição a 
 | 37–42 s | Plano final do receptor e do ponto marcado no coletor; assinatura da série. | **Tecnologia na prática** |
 
 ### Notas de gravação e edição
+
+- **Regra obrigatória do vídeo:** nenhum nome de fabricante, marca, modelo comercial, logotipo, selo, marca-d’água ou inscrição comercial pode aparecer na imagem, na locução, nas legendas ou na capa. Referências de pesquisa permanecem apenas na documentação interna.
+- Material de referência comercial deve ser substituído por ilustração genérica ou preparado com remoção de identificação antes da montagem.
 
 - Gravar a demonstração em área controlada, estável e com visada clara; não criar uma situação de risco real para ilustrar o gancho.
 - Usar o equipamento e o coletor reais. Confirmar no manual e na unidade gravada qual sequência de operação e quais dados aparecem na tela.
